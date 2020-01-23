@@ -182,13 +182,14 @@ nav .nav-content {
   align-items: center;
 }
 nav .nav-content .nav-links {
-  font-size: 1.8rem;
   width: 50%;
   display: flex;
   justify-content: space-around;
 }
 nav .nav-content .nav-links a {
+  font-size: 1.8rem;
   text-decoration: none;
+  color: #212529;
 }
 .footer {
   width: 100%;
@@ -200,6 +201,12 @@ nav .nav-content .nav-links a {
   color: #212529;
   font-size: 1.6rem;
   padding: 20px;
+}
+.home .main-header {
+  border-bottom: 2px dashed #C0C0C0;
+}
+.home .main-header .text-content {
+  margin: 2% 0;
 }
 .home .content-section {
   margin: 30px 0;
