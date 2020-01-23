@@ -173,6 +173,11 @@ img {
     max-width: 90%;
   }
 }
+@media (max-width: 800px) {
+  .container {
+    max-width: 95%;
+  }
+}
 nav {
   padding: 2% 0;
   border-bottom: 2px dashed #C0C0C0;
@@ -201,6 +206,11 @@ nav .nav-content .nav-links a {
     width: 90%;
   }
 }
+@media (max-width: 800px) {
+  nav .nav-content .nav-links {
+    width: 80%;
+  }
+}
 @media (max-width: 500px) {
   nav .nav-content {
     flex-direction: column;
@@ -213,7 +223,11 @@ nav .nav-content .nav-links a {
 }
 @media (max-width: 800px) {
   nav .nav-content {
+    flex-direction: column;
     width: 95%;
+  }
+  nav .nav-content h1 {
+    margin-bottom: 2%;
   }
 }
 .footer {

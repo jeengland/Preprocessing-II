@@ -23,6 +23,9 @@ nav {
             @media @mobile {
                 width: 90%;
             }
+            @media @tablet {
+                width: 80%;
+            }
         }
         @media @mobile {
             flex-direction: column;
@@ -33,7 +36,11 @@ nav {
             }
         }
         @media @tablet {
+            flex-direction: column;
             width: 95%;
+            h1 {
+                margin-bottom: 2%;
+            }
         }
     }
 }
