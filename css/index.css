@@ -204,10 +204,16 @@ nav .nav-content .nav-links a {
 @media (max-width: 500px) {
   nav .nav-content {
     flex-direction: column;
+    width: 100%;
   }
   nav .nav-content h1 {
     font-size: 2.75rem;
     margin-bottom: 2%;
+  }
+}
+@media (max-width: 800px) {
+  nav .nav-content {
+    width: 95%;
   }
 }
 .footer {
